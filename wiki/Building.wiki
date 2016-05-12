@@ -1,0 +1,21 @@
+#summary A guide to building GSD from source.
+#labels Featured
+
+= Building GSD =
+
+Building GSD currently requires [http://ant.apache.org/ ant 1.7] and [http://java.sun.com/javase/downloads/index.jsp Java 1.5].
+
+To build the project, enter `ant` into the directory you unzipped the source
+to.  This will create the directory `target` with a gsd-X.X.X.zip file inside.
+Other ant commands:
+
+{{{
+  ant clean         - Remove generate files
+  ant compile       - Build source
+  ant compile-tests - Build tests
+  ant test          - Build and run tests
+  ant jar           - Build the distributable jar
+  ant zip           - Build the distributable zip
+}}}
+
+For more information on how to run the program, see [Usage].
